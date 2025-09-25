@@ -1,0 +1,25 @@
+# Python Requirements for PDF Navigation Prototype
+# =================================================
+
+# Core PDF processing
+PyMuPDF==1.23.14
+fitz==0.0.1.dev2
+
+# OCR (Optical Character Recognition) for image-based PDFs
+pytesseract>=0.3.10
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# GUI framework
+tkinter  # Usually included with Python
+
+# Image processing for PDF rendering
+Pillow==10.1.0
+
+# Optional: For better text processing
+regex==2023.10.3
+
+# Installation:
+# pip install PyMuPDF Pillow regex
+
+# Note: tkinter comes with Python by default on most systems
